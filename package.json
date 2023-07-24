@@ -1,0 +1,31 @@
+{
+  "name": "material-vite-ts",
+  "private": true,
+  "version": "5.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"yarn:dev:*\"",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "dev:vite": "vite",
+    "dev:toolpad": "toolpad-next dev"
+  },
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "@mui/toolpad-next": "https://pkg.csb.dev/mui/mui-toolpad/commit/56864b72/@mui/toolpad-next",
+    "@mui/x-data-grid-pro": "^6.10.1",
+    "concurrently": "^8.2.0",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}
