@@ -15,7 +15,7 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
-    "@mui/toolpad-next": "https://pkg.csb.dev/mui/mui-toolpad/commit/6517d4c1/@mui/toolpad-next",
+    "@mui/toolpad-next": "https://pkg.csb.dev/mui/mui-toolpad/commit/d2a33d1c/@mui/toolpad-next",
     "@mui/x-data-grid-pro": "^6.10.1",
     "concurrently": "^8.2.0",
     "react": "latest",
