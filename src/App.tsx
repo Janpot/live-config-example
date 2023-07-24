@@ -3,7 +3,6 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import MyGrid from "../toolpad/.generated/MyGrid";
-import MyGrid2 from "../toolpad/.generated/MyGrid2";
 
 export default function App() {
   return (
@@ -13,7 +12,6 @@ export default function App() {
           MUI Live configurator example
         </Typography>
         <MyGrid />
-        <MyGrid2 />
       </Box>
     </Container>
   );
